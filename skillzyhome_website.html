@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillzyHome - Home Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #2d2a4a;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #314e34;
+      color: white;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-color: #e8d9f1;
+      color: #2d2a4a;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      text-align: center;
+    }
+    .card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .join {
+      background-color: #2d2a4a;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .join button {
+      background-color: #314e34;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #2d2a4a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SkillzyHome</h1>
+    <p>Your Trusted Home Cleaning & Repair Professionals</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#join">Join as a Pro</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Need a Helping Hand?</h2>
+    <p>We connect you with top-rated professionals in cleaning, carpentry, plumbing, and painting.</p>
+  </div>
+
+  <div class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Home Cleaning</h3>
+        <p>Trusted cleaners for spotless homes.</p>
+      </div>
+      <div class="card">
+        <h3>Carpentry</h3>
+        <p>Expert carpenters for custom woodwork & repairs.</p>
+      </div>
+      <div class="card">
+        <h3>Plumbing</h3>
+        <p>Reliable plumbing solutions for your home.</p>
+      </div>
+      <div class="card">
+        <h3>Painting</h3>
+        <p>Professional painting services for every surface.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="join" id="join">
+    <h2>Join SkillzyHome Professionals</h2>
+    <p>No onboarding fee. Showcase your skills and get jobs directly from our platform.</p>
+    <button>Get Started</button>
+  </div>
+
+  <footer id="contact">
+    <p>&copy; 2025 SkillzyHome. All rights reserved.</p>
+    <p>Contact us: info@skillzyhome.com</p>
+  </footer>
+</body>
+</html>
